@@ -1,0 +1,25 @@
+{
+  "name": "asinconismo",
+  "version": "1.0.0",
+  "description": "Trabajar con aincronismo",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/Index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise" : "node src/Promise/index.js",
+    "promise:challenge" : "node src/Promise/challenge.js",
+    "async" : "node src/async/index.js",
+    "async:challenge" : "node src/async/challenge.js"
+    
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
